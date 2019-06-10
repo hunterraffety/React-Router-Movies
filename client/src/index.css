@@ -5,6 +5,11 @@ body {
   background-color: #f2f2f2;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .movie-card {
   background-color: #fff;
   border: 0;
@@ -12,6 +17,7 @@ body {
     0 2px 4px rgba(0, 0, 0, 0.24);
   padding: 1rem;
   cursor: pointer;
+  width: 90%;
   position: relative;
   margin: 1rem auto;
 }
